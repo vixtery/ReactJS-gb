@@ -7,7 +7,7 @@ const Message = "Alexander"
 
 ReactDOM.render( 
   <React.StrictMode>
-    <App Message={Message} />
+    <App message={Message} />
   </React.StrictMode>,
   document.getElementById('root')
 );

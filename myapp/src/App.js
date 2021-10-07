@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-export function App({Message}) {
+export function App({message}) {
     return (
-      <div className="App">Hello, {Message}</div>
+      <div className="App">Hello, {message}</div>
     );
   }
   
