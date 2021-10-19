@@ -1,3 +1,4 @@
 export * from "./header";
-export * from "./messageList";
-export * from "./chatList";
+export * from "./message-list";
+export * from "./templates";
+export * from "./chat-list";

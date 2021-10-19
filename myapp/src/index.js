@@ -1,27 +1,22 @@
-import * as React from "react";
 import ReactDOM from "react-dom";
-import { ThemeProvider, createTheme } from "@material-ui/core";
-import { Header, MessageList, ChatList } from "./components";
-import "./App.css";
+import { ThemeProvider, createTheme } from "@mui/material";
+import React from "react";
+import { Header, MessageList, MainTemplate, ChatList } from "./components";
+import "./global.css";
 
-const theme = createTheme({
-  dark: {
-    color: "black",
-  },
-  light: {
-    color: "white",
+const light = createTheme({
+  theme: {
+    color: "red",
   },
 });
 
 ReactDOM.render(
-  <>
-    <ThemeProvider theme={theme}>
-      <ChatList />
-    </ThemeProvider>
-    <div>
-      <Header />
-      <MessageList />
-    </div>
-  </>,
+  <ThemeProvider theme={light}>
+    <MainTemplate
+      header={<Header />}
+      chats={<ChatList />}
+      messages={<MessageList />}
+    />
+  </ThemeProvider>,
   document.getElementById("root")
 );
