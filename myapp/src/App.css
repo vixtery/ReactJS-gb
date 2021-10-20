@@ -1,0 +1,25 @@
+.root {
+    background: rgb(243, 212, 171);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+
+.App-header {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: gray;
+    text-align: left;
+
+}
+
+.App-header-title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: blue;
+    text-align: center;
+}
