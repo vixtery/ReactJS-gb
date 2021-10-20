@@ -1,1 +1,1 @@
-# ReactJS-gb
+# ReactGB
