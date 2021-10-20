@@ -1,0 +1,56 @@
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+  background-color: rgb(177, 225, 165);
+  padding: 10px;
+}
+
+.app_title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.messege {
+  margin: 0;
+  padding: 5px;
+}
+
+.messege_item {
+  list-style-type: none;
+  margin: 0 0 5px;
+
+}
+
+.messege_item-author {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.messege_item-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header_item {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.header_text {
+  margin: 10px 0;
+}
+
+.profile_title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.chat_title {
+  font-size: 20px;
+  font-weight: 400;
+}
